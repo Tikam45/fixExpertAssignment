@@ -2,14 +2,6 @@
 
 import Image from "next/image";
 import { useEffect } from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "../styles/scss/_bootstrap.scss"
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import "../styles/scss/_bootstrap.scss";
-import "../styles/scss/_fonts.scss";
-import "../styles/scss/_variables.scss";
-import "../styles/scss/main.scss";
-import "../styles/scss/components/slider.scss"
 import Link from "next/link";
 
 
