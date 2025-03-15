@@ -7,8 +7,11 @@ import Link from "next/link";
 
 export default function Navbar() {
     useEffect(() => {
-        import('bootstrap/dist/js/bootstrap.bundle.min.js');
-      }, []);
+        if (typeof window !== "undefined") {
+            import('bootstrap/dist/js/bootstrap.bundle.min.js');
+        }
+    }, []);
+    
     return(
         <div className="navbar-wrap p-4">
             <nav className="nav-main border navbar fixed-top rounded-4 navbar-expand-lg bg-body-tertiary">

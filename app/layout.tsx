@@ -1,12 +1,11 @@
+
+/* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import 'swiper/css';
-import 'aos/dist/aos.css';
-import 'kursor/dist/kursor.css';
-import Script from "next/script";
+import ClientScripts from "@/scriptsFiles/clientScripts";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -48,12 +47,6 @@ export default function RootLayout({
 
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-        <Script
-          src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
-          strategy="afterInteractive"
-        />
-        <Script src="https://unpkg.com/kursor" strategy="afterInteractive" />
-        <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js" strategy="afterInteractive" />
       </head>
 
       <body
@@ -62,6 +55,8 @@ export default function RootLayout({
         <Navbar/>
         {children}
         <Footer/>
+
+        <ClientScripts/>
       </body>
     </html>
   );
