@@ -4,8 +4,9 @@ export const metadata = {
     title: 'EasyFix Expert - Washing Machine',
   };
   
-  export default function WashingMachinePage({city} : {
+  export default function WashingMachinePage({city, brand} : {
     city: string
+    brand: string
   }) {
     return (
       <>
@@ -86,7 +87,7 @@ export const metadata = {
             <div className="breadcrumb-content border">
               <div className="breadcrumb-content-item">
                 <h2 className="fw-semibold display-5 text-center">
-                  Washing Machine <span className="gradient-text">Service</span>
+                  {brand} Washing Machine <span className="gradient-text">Service in {city}</span>
                 </h2>
                 <nav style={{ '--bs-breadcrumb-divider': "'>'" } as React.CSSProperties} aria-label="breadcrumb">
                   <ol className="breadcrumb justify-content-center">

@@ -85,10 +85,10 @@ export default function DetailPage({params}: {
     return(
         <> 
 			{
-				product === "WashingMachine" && <WashingMachinePage city={city}/>
+				product === "WashingMachine" && <WashingMachinePage city={city} brand={brand}/>
 			}
 			{
-				product === "AC" && <AirConditionerPage city={city}/>
+				product === "AC" && <AirConditionerPage brand={brand} city={city}/>
 			}
 			{
 				product === "WaterHeater" && <WaterHeaterPage/>
@@ -97,7 +97,7 @@ export default function DetailPage({params}: {
 				product === "oven" && <OvenPage/>
 			}
 			{
-				product === "Fridge" && <FridgePage/>
+				product === "Fridge" && <FridgePage city={city} brand={brand}/>
 			}
 			{
 				product === "DishWasher" && <DishWasher/>

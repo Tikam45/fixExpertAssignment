@@ -4,7 +4,10 @@ export const metadata = {
     title: 'EasyFix Expert - Fridge',
   };
   
-  export default function FridgePage() {
+  export default function FridgePage({city, brand}: {
+    city: string
+    brand: string
+  }) {
     return (
       <>
         {/* NAVBAR */}
@@ -92,7 +95,7 @@ export const metadata = {
             <div className="breadcrumb-content border">
               <div className="breadcrumb-content-item">
                 <h2 className="fw-semibold display-5 text-center">
-                  Fridge <span className="gradient-text">Service</span>
+                  {brand} Fridge <span className="gradient-text">Service in {city}</span>
                 </h2>
                 <nav style={{ '--bs-breadcrumb-divider': "'>'" } as React.CSSProperties} aria-label="breadcrumb">
                   <ol className="breadcrumb justify-content-center">
@@ -102,7 +105,7 @@ export const metadata = {
                       </a>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
-                      Fridge Service
+                      Fridge Service in
                     </li>
                   </ol>
                 </nav>

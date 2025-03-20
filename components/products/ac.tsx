@@ -4,8 +4,9 @@ export const metadata = {
     title: 'EasyFix Expert - Air conditioner',
   };
   
-  export default function AirConditionerPage({city} : {
+  export default function AirConditionerPage({city, brand} : {
     city: string
+    brand: string
   }) {
     return (
       <>
@@ -90,7 +91,7 @@ export const metadata = {
             <div className="breadcrumb-content border">
               <div className="breadcrumb-content-item">
                 <h2 className="fw-semibold display-5 text-center">
-                  Air Conditioner <span className="gradient-text">Service</span>
+                  {brand} Air Conditioner <span className="gradient-text">Service in {city}</span>
                 </h2>
                 <nav
                   style={{ '--bs-breadcrumb-divider': "'>'" } as React.CSSProperties}
