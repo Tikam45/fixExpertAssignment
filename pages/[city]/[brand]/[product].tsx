@@ -1,4 +1,4 @@
-
+"use client"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "@/styles/scss/_bootstrap.scss"
@@ -16,6 +16,9 @@ import WaterHeaterPage from '@/components/products/waterHeater';
 import OvenPage from '@/components/products/oven';
 import FridgePage from '@/components/products/fridge';
 import DishWasher from '@/components/products/dishWasher';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 export async function getStaticPaths(){
     const cities = ["Karaikudi", "Madurai", "Chennai", "Coimbatore", "Tirpur"];
@@ -61,6 +64,22 @@ export default function DetailPage({params}: {
 		product: string,
 	}
 }) {
+
+    useEffect(() => {
+        import("@/js/main.js")
+        .then(() => {
+        })
+        .catch((err) => console.error("Error loading main.js", err));
+        import("@/js/bootstrap.js")
+        .then(() => {
+        })
+        .catch((err) => console.error("Error loading main.js", err));
+
+        AOS.init({
+        duration: 800,
+        once: false,
+        });
+      }, []);
     const {city, brand, product} = params;
 
     return(
