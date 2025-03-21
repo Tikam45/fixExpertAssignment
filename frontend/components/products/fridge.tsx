@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import Navbar from "../navbar";
 
 export const metadata = {
     title: 'EasyFix Expert - Fridge',
@@ -14,83 +15,7 @@ export const metadata = {
     return (
       <>
         {/* NAVBAR */}
-        <div className="navbar-wrap p-4">
-          <nav className="nav-main fixed-top border navbar rounded-4 navbar-expand-lg bg-body-tertiary">
-            <div className="container-fluid">
-              <Link className="navbar-brand" href="#">
-                <Image
-                  src="/images/album/easy-fix-logo-bg-removed-2.png"
-                  width={100}
-                  height={60}
-                  alt="brand logo"
-                />
-              </Link>
-  
-              <button
-                className="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#nav-main"
-                aria-controls="nav-main"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
-  
-              <div className="collapse navbar-collapse" id="nav-main">
-                <ul className="navbar-nav ms-auto">
-                  <li className="nav-item">
-                    <Link className="nav-Link" aria-current="page" href="/">
-                      Home
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-Link" aria-current="page" href="/services/air-conditioner">
-                      Air Conditioner Service
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-Link" href="/services/washing-machine">
-                      Washing Machine
-                    </Link>
-                  </li>
-                  <li className="nav-item dropdown active">
-                    <Link
-                      className="nav-Link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdown"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Services
-                    </Link>
-                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <Link className="dropdown-item" href="/services/fridge">
-                        Fridge
-                      </Link>
-                      <Link className="dropdown-item" href="/services/dish-washer">
-                        Dish Washer
-                      </Link>
-                      <Link className="dropdown-item" href="/services/water-heater">
-                        Water Heater
-                      </Link>
-                      <Link className="dropdown-item" href="/services/oven">
-                        Oven
-                      </Link>
-                    </div>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-Link" href="#contact">
-                      Contact
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
+        <Navbar/>
   
         {/* BODY */}
         <section className="breadcrumb mt-7">

@@ -90,7 +90,7 @@ export default function DetailPage({params}: {
 				product === "AC" && <AirConditionerPage brand={brand} city={city}/>
 			}
 			{
-				product === "WaterHeater" && <WaterHeaterPage/>
+				product === "waterHeater" && <WaterHeaterPage/>
 			}
 			{
 				product === "oven" && <OvenPage/>
@@ -99,7 +99,7 @@ export default function DetailPage({params}: {
 				product === "Fridge" && <FridgePage city={city} brand={brand}/>
 			}
 			{
-				product === "DishWasher" && <DishWasher/>
+				product === "dishWasher" && <DishWasher/>
 			}
         </>
     )

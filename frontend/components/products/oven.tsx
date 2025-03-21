@@ -1,7 +1,7 @@
 // src/app/services/oven/page.js
 
-import Image from "next/image";
 import Link from "next/link";
+import Navbar from "../navbar";
 
 export const metadata = {
     title: 'EasyFix Expert - Oven',
@@ -11,82 +11,7 @@ export const metadata = {
     return (
       <>
         {/* NAVBAR */}
-        <div className="navbar-wrap p-4">
-          <nav className="nav-main fixed-top border navbar rounded-4 navbar-expand-lg bg-body-tertiary">
-            <div className="container-fluid">
-              <Link className="navbar-brand" href="#">
-                <Image
-                  src="/images/album/easy-fix-logo-bg-removed-2.png"
-                  alt=""
-                />
-              </Link>
-  
-              <button
-                className="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#nav-main"
-                aria-controls="nav-main"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
-  
-              <div className="collapse navbar-collapse" id="nav-main">
-                <ul className="navbar-nav ms-auto">
-                  <li className="nav-item">
-                    <Link className="nav-link active" aria-current="page" href="#">
-                      Home
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" href="#about">
-                      About
-                    </Link>
-                  </li>
-                  <li className="nav-item dropdown">
-                    <Link
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdown"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Services
-                    </Link>
-                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <Link className="dropdown-item" href="#javascript">
-                        Air Conditioner
-                      </Link>
-                      <Link className="dropdown-item" href="#html-and-css">
-                        Washing Machine
-                      </Link>
-                      <Link className="dropdown-item" href="#javascript">
-                        Fridge
-                      </Link>
-                      <Link className="dropdown-item" href="#javascript">
-                        Dish Washer
-                      </Link>
-                      <Link className="dropdown-item" href="#javascript">
-                        Water Heater
-                      </Link>
-                      <Link className="dropdown-item" href="#javascript">
-                        Oven
-                      </Link>
-                    </div>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" href="#contact">
-                      Contact
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
+        <Navbar/>
   
         {/* FOOTER */}
         <footer className="footer d-flex align-items-center" id="footer">

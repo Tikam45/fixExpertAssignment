@@ -1,104 +1,12 @@
-import Head from "next/head";
-import Image from "next/image";
+
 import Link from "next/link";
-import Script from "next/script";
+import Navbar from "../navbar";
 
 export default function DishWasher() {
   return (
     <>
-      <Head>
-        <title>EasyFix Expert - Dish Washer</title>
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        {/* Google Fonts */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-          rel="stylesheet"
-        />
-        {/* 3rd Party CSS */}
-        <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-      </Head>
-
-      <main>
         {/* NAVBAR */}
-        <div className="navbar-wrap p-4">
-          <nav className="nav-main fixed-top border navbar rounded-4 navbar-expand-lg bg-body-tertiary">
-            <div className="container-fluid">
-              <Link className="navbar-brand" href="#">
-                <Image src="/images/Linklbum/easy-fix-logo-bg-removed-2.png" alt="brand logo" />
-              </Link>
-              <button
-                className="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#nav-main"
-                aria-controls="nav-main"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon" />
-              </button>
-              <div className="collapse navbar-collapse" id="nav-main">
-                <ul className="navbar-nav ms-auto">
-                  <li className="nav-item">
-                    <Link className="nav-link active" aria-current="page" href="#">
-                      Home
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" href="#about">
-                      About
-                    </Link>
-                  </li>
-                  <li className="nav-item dropdown">
-                    <Link
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdown"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Services
-                    </Link>
-                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <Link className="dropdown-item" href="#javascript">
-                        Air Conditioner
-                      </Link>
-                      <Link className="dropdown-item" href="#html-and-css">
-                        Washing Machine
-                      </Link>
-                      <Link className="dropdown-item" href="#javascript">
-                        Fridge
-                      </Link>
-                      <Link className="dropdown-item" href="#javascript">
-                        Dish Washer
-                      </Link>
-                      <Link className="dropdown-item" href="#javascript">
-                        Water Heater
-                      </Link>
-                      <Link className="dropdown-item" href="#javascript">
-                        Oven
-                      </Link>
-                    </div>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" href="#contact">
-                      Contact
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
+        <Navbar/>
 
         {/* Since the original dish-washer.html contains only a navbar and a footer, 
             the main body content is omitted. You can add your page-specific content here if needed. */}
@@ -191,11 +99,6 @@ export default function DishWasher() {
             </div>
           </div>
         </footer>
-
-        {/* SCRIPTS */}
-        <Script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" strategy="lazyOnload" />
-        <Script src="https://unpkg.com/kursor" strategy="lazyOnload" />
-      </main>
     </>
   );
 }
