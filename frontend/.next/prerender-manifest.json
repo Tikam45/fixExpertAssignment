@@ -1,0 +1,2030 @@
+{
+  "version": 4,
+  "routes": {
+    "/favicon.ico": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "image/x-icon",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/favicon.ico",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Daikin/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Daikin/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Daikin/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Daikin/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Daikin/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Daikin/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Daikin/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Daikin/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Daikin/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Daikin/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Daikin/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Daikin/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Samsung/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Samsung/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Samsung/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Samsung/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Samsung/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Samsung/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Samsung/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Samsung/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Samsung/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Samsung/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Samsung/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Samsung/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/LG/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/LG/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/LG/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/LG/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/LG/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/LG/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/LG/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/LG/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/LG/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/LG/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/LG/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/LG/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Whirlpool/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Whirlpool/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Whirlpool/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Whirlpool/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Whirlpool/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Whirlpool/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Whirlpool/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Whirlpool/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Whirlpool/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Whirlpool/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Whirlpool/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Whirlpool/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Godrej/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Godrej/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Godrej/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Godrej/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Godrej/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Godrej/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Godrej/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Godrej/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Godrej/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Godrej/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Karaikudi/Godrej/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Karaikudi/Godrej/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Daikin/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Daikin/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Daikin/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Daikin/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Daikin/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Daikin/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Daikin/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Daikin/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Daikin/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Daikin/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Daikin/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Daikin/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Samsung/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Samsung/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Samsung/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Samsung/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Samsung/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Samsung/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Samsung/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Samsung/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Samsung/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Samsung/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Samsung/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Samsung/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/LG/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/LG/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/LG/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/LG/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/LG/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/LG/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/LG/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/LG/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/LG/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/LG/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/LG/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/LG/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Whirlpool/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Whirlpool/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Whirlpool/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Whirlpool/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Whirlpool/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Whirlpool/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Whirlpool/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Whirlpool/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Whirlpool/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Whirlpool/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Whirlpool/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Whirlpool/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Godrej/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Godrej/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Godrej/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Godrej/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Godrej/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Godrej/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Godrej/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Godrej/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Godrej/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Godrej/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Madurai/Godrej/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Madurai/Godrej/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Daikin/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Daikin/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Daikin/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Daikin/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Daikin/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Daikin/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Daikin/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Daikin/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Daikin/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Daikin/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Daikin/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Daikin/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Samsung/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Samsung/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Samsung/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Samsung/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Samsung/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Samsung/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Samsung/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Samsung/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Samsung/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Samsung/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Samsung/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Samsung/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/LG/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/LG/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/LG/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/LG/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/LG/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/LG/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/LG/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/LG/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/LG/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/LG/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/LG/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/LG/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Whirlpool/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Whirlpool/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Whirlpool/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Whirlpool/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Whirlpool/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Whirlpool/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Whirlpool/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Whirlpool/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Whirlpool/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Whirlpool/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Whirlpool/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Whirlpool/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Godrej/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Godrej/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Godrej/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Godrej/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Godrej/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Godrej/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Godrej/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Godrej/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Godrej/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Godrej/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Chennai/Godrej/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Chennai/Godrej/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Daikin/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Daikin/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Daikin/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Daikin/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Daikin/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Daikin/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Daikin/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Daikin/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Daikin/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Daikin/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Daikin/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Daikin/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Samsung/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Samsung/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Samsung/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Samsung/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Samsung/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Samsung/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Samsung/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Samsung/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Samsung/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Samsung/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Samsung/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Samsung/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/LG/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/LG/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/LG/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/LG/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/LG/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/LG/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/LG/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/LG/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/LG/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/LG/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/LG/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/LG/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Whirlpool/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Whirlpool/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Whirlpool/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Whirlpool/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Whirlpool/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Whirlpool/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Whirlpool/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Whirlpool/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Whirlpool/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Whirlpool/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Whirlpool/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Whirlpool/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Godrej/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Godrej/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Godrej/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Godrej/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Godrej/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Godrej/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Godrej/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Godrej/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Godrej/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Godrej/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Coimbatore/Godrej/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Coimbatore/Godrej/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Daikin/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Daikin/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Daikin/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Daikin/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Daikin/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Daikin/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Daikin/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Daikin/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Daikin/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Daikin/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Daikin/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Daikin/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Samsung/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Samsung/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Samsung/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Samsung/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Samsung/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Samsung/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Samsung/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Samsung/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Samsung/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Samsung/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Samsung/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Samsung/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/LG/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/LG/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/LG/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/LG/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/LG/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/LG/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/LG/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/LG/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/LG/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/LG/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/LG/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/LG/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Whirlpool/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Whirlpool/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Whirlpool/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Whirlpool/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Whirlpool/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Whirlpool/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Whirlpool/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Whirlpool/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Whirlpool/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Whirlpool/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Whirlpool/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Whirlpool/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Godrej/AC": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Godrej/AC.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Godrej/Fridge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Godrej/Fridge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Godrej/WashingMachine": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Godrej/WashingMachine.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Godrej/dishWasher": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Godrej/dishWasher.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Godrej/oven": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Godrej/oven.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Tirpur/Godrej/waterHeater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[city]/[brand]/[product]",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/Tirpur/Godrej/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {
+    "/[city]/[brand]/[product]": {
+      "routeRegex": "^/([^/]+?)/([^/]+?)/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/Jr0mIPT45xAHl_U3mpgZJ/[city]/[brand]/[product].json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/Jr0mIPT45xAHl_U3mpgZJ/([^/]+?)/([^/]+?)/([^/]+?)\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "5f3fca5cfce415379132651982e56297",
+    "previewModeSigningKey": "f88c6baee717a0567867a2021601d2232b388d2a941b58c9bc355db72866488b",
+    "previewModeEncryptionKey": "f5c5a68e389a27a1e2fe6cb02115776d4e8752adb4b761078e170be8bf346b52"
+  }
+}
