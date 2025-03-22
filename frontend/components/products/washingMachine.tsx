@@ -1,8 +1,10 @@
-// src/app/services/washing-machine/page.js
 
-import Image from "next/image";
-import Link from "next/link";
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-html-link-for-pages */
+
+
 import Navbar from "../navbar";
+import React from "react";
 
 export const metadata = {
     title: 'EasyFix Expert - Washing Machine',
@@ -23,14 +25,14 @@ export const metadata = {
             <div className="breadcrumb-content border">
               <div className="breadcrumb-content-item">
                 <h2 className="fw-semibold display-5 text-center">
-                  {brand} Washing Machine <span className="gradient-text">Service in {city}</span>
+                  {brand} Washing Machine <span className="gradient-text">Service in {city} </span>
                 </h2>
                 <nav style={{ '--bs-breadcrumb-divider': "'>'" } as React.CSSProperties} aria-label="breadcrumb">
                   <ol className="breadcrumb justify-content-center">
                     <li className="breadcrumb-item">
-                      <Link className="text-decoration-none text-white" href="#">
+                      <a className="text-decoration-none text-white" href="#">
                         Home
-                      </Link>
+                      </a>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Washing Machine Service
@@ -99,7 +101,7 @@ export const metadata = {
                   <ul className="list-group list-group-flush mt-4">
                     <li className="list-group-item d-flex align-items-center">
                       <span>
-                        <Image
+                        <img
                           src="/images/album/icon-park-solid--check-one.svg"
                           width="24"
                           height="24"
@@ -111,7 +113,7 @@ export const metadata = {
                     </li>
                     <li className="list-group-item d-flex align-items-center">
                       <span>
-                        <Image
+                        <img
                           src="/images/album/icon-park-solid--check-one.svg"
                           width="24"
                           height="24"
@@ -123,7 +125,7 @@ export const metadata = {
                     </li>
                     <li className="list-group-item d-flex align-items-center">
                       <span>
-                        <Image
+                        <img
                           src="/images/album/icon-park-solid--check-one.svg"
                           width="24"
                           height="24"
@@ -135,7 +137,7 @@ export const metadata = {
                     </li>
                     <li className="list-group-item d-flex align-items-center">
                       <span>
-                        <Image
+                        <img
                           src="/images/album/icon-park-solid--check-one.svg"
                           width="24"
                           height="24"
@@ -149,10 +151,10 @@ export const metadata = {
                 </div>
               </div>
               <div className="col-md-6">
-                <Image
+                <img
                   src="/images/album/washing-machine.png"
-                  width={100}
-                  height={100}
+                  width="100%"
+                  height="100%"
                   alt=""
                 />
               </div>
@@ -177,40 +179,40 @@ export const metadata = {
             <div className="row g-6">
               <div className="col-6 col-md-3">
                 <div className="brand-service">
-                  <Link href="/services/washing-machine/lg-washing-machine-service-centre">
-                    <Image
+                  <a href="/services/washing-machine/lg-washing-machine-service-centre">
+                    <img
                       src="/images/album/brands/lg.svg"
-                      width={100}
-                      height={100}
+                      width="100%"
+                      height="100%"
                       alt="lg Washing Machine service center"
                     />
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     className="m-0 text-center w-100 mt-3 d-block custom-bg rounded-pill p-2 text-decoration-none"
                     href="#"
                   >
                     LG
-                  </Link>
+                  </a>
                 </div>
               </div>
               {/* ...repeat brand-service blocks for Samsung, Onida, Panasonic, Haier, Whirlpool, Godrej, IFB, Bosch, etc. */}
               {/* Example for Samsung: */}
               <div className="col-6 col-md-3">
                 <div className="brand-service">
-                  <Link href="/services/washing-machine/samsung-washing-machine-service-centre">
-                    <Image
+                  <a href="/services/washing-machine/samsung-washing-machine-service-centre">
+                    <img
                       src="/images/album/brands/samsung.svg"
-                      width={100}
-                      height={100}
+                      width="100%"
+                      height="100%"
                       alt="samsung Washing Machine service center"
                     />
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     className="m-0 text-center w-100 mt-3 d-block custom-bg rounded-pill p-2 text-decoration-none"
                     href="#"
                   >
                     Samsung
-                  </Link>
+                  </a>
                 </div>
               </div>
               {/* ...and so on for other brands: Onida, Panasonic, Haier, Whirlpool, Godrej, IFB, Bosch, etc. */}
@@ -242,7 +244,7 @@ export const metadata = {
                 <div className="card h-100">
                   <div className="card-body">
                     <span className="check-mark">
-                      <Image
+                      <img
                         src="/images/album/ion--location-sharp.svg"
                         height="28"
                         width="28"
@@ -280,11 +282,11 @@ export const metadata = {
             <div className="row row-cols-1 g-4 w-md-50 w-100 mx-auto">
               {/* Example location card */}
               <div className="col">
-                <Link href="/services/air-conditioner/air-conditioner-karaikudi">
+                <a href="/services/air-conditioner/air-conditioner-karaikudi">
                   <div className="card h-100">
                     <div className="card-body">
                       <span className="check-mark">
-                        <Image
+                        <img
                           src="/images/album/ion--location-sharp.svg"
                           height="28"
                           width="28"
@@ -296,7 +298,7 @@ export const metadata = {
                       </h6>
                     </div>
                   </div>
-                </Link>
+                </a>
               </div>
               {/* ...repeat for Aranthangi, Kottayur, Tirupathur, Ariyakudi, etc. */}
             </div>
@@ -314,14 +316,14 @@ export const metadata = {
               Have a Question or Need Assistance?<br />
               <span className="gradient-text">Contact Us</span> Today!
             </h2>
-            <Link
+            <a
               href="#"
               className="btn btn-primary rounded-pill px-5"
               role="button"
               data-bs-toggle="button"
             >
               Call Us
-            </Link>
+            </a>
           </div>
   
           <div className="booking-form p-4 w-100 w-md-50 mx-auto bg-white rounded-4">
@@ -416,10 +418,10 @@ export const metadata = {
               <div className="col-md-4">
                 <h6 className="text-white">Quick Links</h6>
                 <ul>
-                  <li><Link href="#" className="cursorp">Home</Link></li>
-                  <li><Link href="#" className="cursorp">About</Link></li>
-                  <li><Link href="#" className="cursorp">Services</Link></li>
-                  <li><Link href="#" className="cursorp">Contact</Link></li>
+                  <li><a className="cursorp">Home</a></li>
+                  <li><a className="cursorp">About</a></li>
+                  <li><a className="cursorp">Services</a></li>
+                  <li><a className="cursorp">Contact</a></li>
                 </ul>
               </div>
               <div className="col-md-4">
@@ -449,9 +451,9 @@ export const metadata = {
                         />
                       </svg>
                     </span>
-                    <Link href="tel:++917550331197">+91 75503 31197</Link>
+                    <a href="tel:++917550331197">+91 75503 31197</a>
                     <br />
-                    <Link href="tel:+918428431197">+91 84284 31197</Link>
+                    <a href="tel:+918428431197">+91 84284 31197</a>
                   </li>
                   <li>
                     <span className="iconcontainer">
@@ -462,7 +464,7 @@ export const metadata = {
                         />
                       </svg>
                     </span>
-                    <Link href="mailto:info@easyfixexpert.com">info@easyfixexpert.com</Link>
+                    <a href="mailto:info@easyfixexpert.com">info@easyfixexpert.com</a>
                   </li>
                 </ul>
               </div>
@@ -485,7 +487,7 @@ export const metadata = {
                     </svg>
                   </span>{' '}
                   by{' '}
-                  <Link href="https://salmank07.github.io/">Pixel Crafted Dreams</Link>
+                  <a href="https://salmank07.github.io/">Pixel Crafted Dreams</a>
                 </p>
               </div>
             </div>
@@ -493,7 +495,7 @@ export const metadata = {
         </footer>
   
         <div className="call-buton d-sm-none">
-          <Link  className="cc-calto-action-ripple" href="tel:7550331197">
+          <a className="cc-calto-action-ripple" href="tel:7550331197">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -506,7 +508,7 @@ export const metadata = {
               />
             </svg>
             <span className="num ms-3">7550331197</span>
-          </Link>
+          </a>
         </div>
       </>
     );
