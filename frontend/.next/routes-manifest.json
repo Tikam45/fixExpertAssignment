@@ -15,6 +15,15 @@
   "headers": [],
   "dynamicRoutes": [
     {
+      "page": "/services/[city]/[product]",
+      "regex": "^/services/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcity": "nxtPcity",
+        "nxtPproduct": "nxtPproduct"
+      },
+      "namedRegex": "^/services/(?<nxtPcity>[^/]+?)/(?<nxtPproduct>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/[city]/[brand]/[product]",
       "regex": "^/([^/]+?)/([^/]+?)/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -47,14 +56,23 @@
   ],
   "dataRoutes": [
     {
+      "page": "/services/[city]/[product]",
+      "routeKeys": {
+        "nxtPcity": "nxtPcity",
+        "nxtPproduct": "nxtPproduct"
+      },
+      "dataRouteRegex": "^/_next/data/ewOzoEiAw4LNtYGzcNSkj/services/([^/]+?)/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/ewOzoEiAw4LNtYGzcNSkj/services/(?<nxtPcity>[^/]+?)/(?<nxtPproduct>[^/]+?)\\.json$"
+    },
+    {
       "page": "/[city]/[brand]/[product]",
       "routeKeys": {
         "nxtPcity": "nxtPcity",
         "nxtPbrand": "nxtPbrand",
         "nxtPproduct": "nxtPproduct"
       },
-      "dataRouteRegex": "^/_next/data/Jr0mIPT45xAHl_U3mpgZJ/([^/]+?)/([^/]+?)/([^/]+?)\\.json$",
-      "namedDataRouteRegex": "^/_next/data/Jr0mIPT45xAHl_U3mpgZJ/(?<nxtPcity>[^/]+?)/(?<nxtPbrand>[^/]+?)/(?<nxtPproduct>[^/]+?)\\.json$"
+      "dataRouteRegex": "^/_next/data/ewOzoEiAw4LNtYGzcNSkj/([^/]+?)/([^/]+?)/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/ewOzoEiAw4LNtYGzcNSkj/(?<nxtPcity>[^/]+?)/(?<nxtPbrand>[^/]+?)/(?<nxtPproduct>[^/]+?)\\.json$"
     }
   ],
   "rsc": {

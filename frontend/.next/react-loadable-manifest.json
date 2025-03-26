@@ -51,5 +51,22 @@
       "static/chunks/200.dd5a376264164aa6.js",
       "static/chunks/872.9c1598249ddf0351.js"
     ]
+  },
+  "pages\\services\\[city]\\[product].tsx -> @/js/bootstrap.js": {
+    "id": 3850,
+    "files": [
+      "static/chunks/985.e2f5c2875af830e4.js",
+      "static/chunks/469.4070e723f1d33212.js"
+    ]
+  },
+  "pages\\services\\[city]\\[product].tsx -> @/js/main.js": {
+    "id": 9872,
+    "files": [
+      "static/chunks/08687d28.ca5aa09d605d49d3.js",
+      "static/chunks/281c3f4d.8af47c2529eefdca.js",
+      "static/chunks/985.e2f5c2875af830e4.js",
+      "static/chunks/200.dd5a376264164aa6.js",
+      "static/chunks/872.9c1598249ddf0351.js"
+    ]
   }
 }
