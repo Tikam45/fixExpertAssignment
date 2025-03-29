@@ -7,13 +7,14 @@
 
 import Navbar from "../navbar";
 import React from "react";
+import address from "../../dataStore/addresses.json"
 // import Swal from "sweetalert2";
 
 export const metadata = {
     title: 'EasyFix Expert - Washing Machine',
   };
   
-  export default function WashingMachinePage() {
+  export default function WashingMachinePage({city}: {city: keyof typeof address.locations}) {
     // const scriptURL = "https://script.google.com/macros/s/AKfycbz232FUBK-o9cKorvtRTZ8WEBNWooUsJ_GiKGmL_tA6V0hxPFSoEKNd1GfORWHwk8kQ/exec";
     // const form = document.forms["submit-to-google-sheet" as any];
     // form.addEventListener("submit", (e) => {
@@ -589,11 +590,7 @@ export const metadata = {
                         />
                       </svg>
                     </span>
-                    #1, Subramaniyapuram,
-                    <br />
-                    1st Street South Extension,
-                    <br />
-                    State Bank Road, Karaikudi
+                    {address.locations?.[city]?.line1}, <br/> {address.locations?.[city]?.line2}, <br/> {address.locations?.[city]?.line3}
                   </li>
                   <li>
                     <span className="iconcontainer">

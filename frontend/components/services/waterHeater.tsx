@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import Navbar from "../navbar";
+import address from '../../dataStore/addresses.json'
 
 export const metadata = {
     title: 'EasyFix Expert - Water Heater',
   };
   
-  export default function WaterHeaterPage() {
+  export default function WaterHeaterPage({city}: {city: keyof typeof address.locations}) {
     return (
       <>
         {/* NAVBAR */}
@@ -48,9 +49,7 @@ export const metadata = {
                         />
                       </svg>
                     </span>
-                    #1, Subramaniyapuram, <br />
-                    1st Street South Extension, <br />
-                    State Bank Road, Karaikudi
+                    {address.locations?.[city]?.line1}, <br/> {address.locations?.[city]?.line2}, <br/> {address.locations?.[city]?.line3}
                   </li>
                   <li>
                     <span className="iconcontainer">

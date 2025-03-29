@@ -70,27 +70,28 @@ export default function ServicecenterPage({params}: {
         once: false,
         });
       }, []);
-    const {product} = params;
+    const {city, product} = params;
       console.log(params)
+      type cities = "Karaikudi" | "Madurai" | "Chennai" | "Coimbatore" | "Tirupur";
     return(
         <>
         {
-            product === "WashingMachineservicecenter" && <WashingMachinePage />
+            product === "WashingMachineservicecenter" && <WashingMachinePage city={city as cities}/>
         }
         {
-            product === "ACservicecenter" && <ACPage/>
+            product === "ACservicecenter" && <ACPage city={city as cities}/>
         }
         {
-            product === "waterHeaterservicecenter" && <WaterHeaterPage/>
+            product === "waterHeaterservicecenter" && <WaterHeaterPage city={city as cities}/>
         }
         {
-            product === "ovenservicecenter" && <OvenPage/>
+            product === "ovenservicecenter" && <OvenPage city={city as cities} />
         }
         {
-            product === "Fridgeservicecenter" && <FridgePage />
+            product === "Fridgeservicecenter" && <FridgePage city={city as cities} />
         }
         {
-            product === "dishWasherservicecenter" && <DishWasher/>
+            product === "dishWasherservicecenter" && <DishWasher city={city as cities}/>
         }
         </>
     )

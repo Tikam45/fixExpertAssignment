@@ -81,25 +81,26 @@ export default function DetailPage({params}: {
       }, []);
     const {city, brand, product} = params;
       console.log(params)
+      type cities = "Karaikudi" | "Madurai" | "Chennai" | "Coimbatore" | "Tirupur"
     return(
         <> 
 			{
-				product === "WashingMachine" && <WashingMachinePage city={city} brand={brand}/>
+				product === "WashingMachine" && <WashingMachinePage city={city as cities} brand={brand}/>
 			}
 			{
-				product === "AC" && <AirConditionerPage brand={brand} city={city}/>
+				product === "AC" && <AirConditionerPage brand={brand} city={city as cities}/>
 			}
 			{
-				product === "waterHeater" && <WaterHeaterPage/>
+				product === "waterHeater" && <WaterHeaterPage city={city as cities}/>
 			}
 			{
-				product === "oven" && <OvenPage/>
+				product === "oven" && <OvenPage city={city as cities}/>
 			}
 			{
-				product === "Fridge" && <FridgePage city={city} brand={brand}/>
+				product === "Fridge" && <FridgePage city={city as cities} brand={brand}/>
 			}
 			{
-				product === "dishWasher" && <DishWasher/>
+				product === "dishWasher" && <DishWasher city={city as cities}/>
 			}
         </>
     )

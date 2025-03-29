@@ -4,8 +4,9 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 
 // import Swal from "sweetalert2";
+import address from '../../dataStore/addresses.json'
 
-export default function ACPage() {
+export default function ACPage({city}: {city: keyof typeof address.locations}) {
     // const scriptURL = "https://script.google.com/macros/s/AKfycbz232FUBK-o9cKorvtRTZ8WEBNWooUsJ_GiKGmL_tA6V0hxPFSoEKNd1GfORWHwk8kQ/exec";
     //   const form = document.forms["submit-to-google-sheet" as any];
     //   form.addEventListener("submit", (e) => {
@@ -664,7 +665,7 @@ export default function ACPage() {
                                         d="M12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5M12 2a7 7 0 0 1 7 7c0 5.25-7 13-7 13S5 14.25 5 9a7 7 0 0 1 7-7m0 2a5 5 0 0 0-5 5c0 1 0 3 5 9.71C17 12 17 10 17 9a5 5 0 0 0-5-5" />
                                 </svg>
                             </span>
-                            #1, Subramaniyapuram, <br />1st Street South Extension, <br />State Bank Road, Karaikudi
+                            {address.locations?.[city]?.line1}, <br/> {address.locations?.[city]?.line2}, <br/> {address.locations?.[city]?.line3}
                         </li>
                         <li>
                             <span className="iconcontainer">
